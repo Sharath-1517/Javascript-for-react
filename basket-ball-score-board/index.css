@@ -1,0 +1,52 @@
+body {
+    width: auto;
+    height: auto;
+    background: url(https://media.istockphoto.com/id/1202801765/photo/basketball-ball-on-black-background.jpg?b=1&s=170667a&w=0&k=20&c=R1lTf8Z5x5_PyYtcxXDrah2Whvas9GEkZ32lz4yAEG8=);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0px auto;
+}
+
+h3 {
+    color: white;
+}
+
+.score {
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+    border-radius: 5px;
+    font-family: cursed-timer;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    font-family: cursed-timer;
+    font-weight: bolder;
+    border: 2px grey solid;
+    color: black;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+#new_game {
+    width: 300px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+@font-face {
+    font-family: "cursed-timer";
+    src: url(https://fonts.cdnfonts.com/css/cursed-timer-ulil);
+}
+
+
+
