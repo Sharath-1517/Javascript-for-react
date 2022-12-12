@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
+body {
+    background-image: linear-gradient(to left, #6943FF , #313c57, #676e9c);
+}
+
+.container {
+    display: flex;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.bg {
+    background: #1F2937;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border: 2px double white;
+}
+.top {
+    /* margin: -30px; */
+    width: 550px;
+    height: 290px;
+    background: #6943FF;
+    text-align: center;
+    border-radius: 10px;
+    margin: 0 20px;
+}
+
+
+h3 {
+    padding-top: 25px;
+    font-family:"Inter";
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+#tb {
+    /* background: #6943FF; */
+    /* padding: 20px 30px; */
+    width: 117px;
+    height: 83px;
+    border: 3px solid #B295FF;
+    border-radius: 5px;
+    background-color: #6943FF;
+    color: white;
+    font-family: "Inter";
+    font-size: xxx-large;
+    text-align: center;
+    /* font-weight: bold; */
+}
+
+button {
+    width: 117px;
+    height: 42px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: "Inter";
+    font-weight: 500;
+    box-shadow: 0 3px rgb(47, 47, 47);
+}
+
+button:hover {
+    background-color: #1F2937;
+    color: white;
+    border: 2px solid white;
+    box-shadow: 0 3px rgb(255, 255, 255);
+}
+
+button:active {
+    transform: translateY(4px);
+}
+
+.boxforoutput {
+    /* padding-top: 25px; */
+    width: 500px;
+    height:108.57px;
+    background: #273549;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+#marg-box1 {
+    margin-top: 20px;
+}
+
+#marg-box2 {
+    margin: 20px 0;
+}
+
+span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #CCC1FF;
+}
+
+.font {
+    padding-top: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff;
+}
+
